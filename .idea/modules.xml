@@ -2,6 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/p-domain/domain.iml" filepath="$PROJECT_DIR$/p-domain/domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p-api/p-api.iml" filepath="$PROJECT_DIR$/p-api/p-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p-application/p-application.iml" filepath="$PROJECT_DIR$/p-application/p-application.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p-repository/p-repository.iml" filepath="$PROJECT_DIR$/p-repository/p-repository.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p-web/p-web.iml" filepath="$PROJECT_DIR$/p-web/p-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/people.iml" filepath="$PROJECT_DIR$/people.iml" />
     </modules>
   </component>

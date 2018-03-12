@@ -7,15 +7,32 @@
         <groupId>br.com.test</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
-    <modelVersion>4.0.0</modelVersion>
 
+    <modelVersion>4.0.0</modelVersion>
     <artifactId>p-api</artifactId>
     <name>p-api</name>
+
     <dependencies>
+        <!--people project dependencies-->
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>p-domain</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>p-application</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <!---->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
             <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-core</artifactId>
         </dependency>
         <dependency>
             <groupId>org.jetbrains.kotlin</groupId>
@@ -27,6 +44,16 @@
             <artifactId>kotlin-test</artifactId>
             <version>${kotlin.version}</version>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>br.com.test</groupId>
+            <artifactId>p-domain</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>br.com.test</groupId>
+            <artifactId>p-domain</artifactId>
+            <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
 
@@ -59,6 +86,4 @@
             </plugin>
         </plugins>
     </build>
-
-
 </project>

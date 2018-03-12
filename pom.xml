@@ -18,6 +18,8 @@
     </parent>
 
     <modules>
+        <module>p-domain</module>
+        <module>p-repository</module>
         <module>p-api</module>
         <module>p-application</module>
         <module>p-web</module>
@@ -80,23 +82,16 @@
 
     <dependencyManagement>
         <dependencies>
-            <!--<dependency>-->
-                <!--<groupId>${project.groupId}</groupId>-->
-                <!--<artifactId>rw-coupon-infrastructure</artifactId>-->
-                <!--<version>${project.version}</version>-->
-            <!--</dependency>-->
             <dependency>
                 <groupId>org.apache.logging.log4j</groupId>
                 <artifactId>log4j-core</artifactId>
                 <version>${log4j.version}</version>
             </dependency>
-
             <dependency>
                 <groupId>com.fasterxml.jackson.datatype</groupId>
                 <artifactId>jackson-datatype-jsr310</artifactId>
                 <version>${jackson.version}</version>
             </dependency>
-
             <dependency>
                 <groupId>com.fasterxml.jackson.module</groupId>
                 <artifactId>jackson-module-kotlin</artifactId>

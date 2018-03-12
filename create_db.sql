@@ -1,3 +1,5 @@
 CREATE TABLE person(
-  name TEXT
-)
+  id_person UUID PRIMARY KEY,
+  name TEXT,
+  cpf TEXT
+);
